@@ -38,7 +38,6 @@ class MouseTrackerApp(QWidget):
         self.label.move(x, y)
 
     def move_label_to_mouse(self):
-        """Pindahkan label ke posisi mouse terakhir setiap 3 detik."""
         self.label.move(self.last_mouse_x, self.last_mouse_y)
 
 if __name__ == "__main__":
